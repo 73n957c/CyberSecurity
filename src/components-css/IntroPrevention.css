@@ -1,0 +1,50 @@
+.home-prevention-header {
+    margin: 10px 0 10px 0; 
+    border: none; 
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+span {
+    color: #FFA800;
+}
+
+#home-prevention {
+    position: relative;
+    margin-bottom: 20px;
+}
+  
+#home-prevention .prevention-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+  
+#home-prevention .prevention-text {
+    margin-left: 10px;
+}
+  
+#home-prevention .prevention-text h6{
+    font-weight: bold;
+    font-size: larger;
+}
+  
+#home-prevention .prevention-text .desc-text{
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: #c4c4c4;
+    margin-bottom: 10px;
+}
+  
+#home-prevention .prevention-img{
+    width: 130px;
+    height: 130px;
+    border-radius: 12px;
+    margin-right: 20px;
+}
+  

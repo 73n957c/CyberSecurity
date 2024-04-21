@@ -1,0 +1,25 @@
+#dailynotify-container {
+    width: 90%;
+    height: 350px;
+    border-radius: 80px;
+    overflow: hidden;
+}
+  
+#dailynotify-container .dailynotify-placeholder {
+    width: 100%;
+    height: 350px;
+    display: block;
+    /* object-fit: cover; */
+    position: relative;
+    background-color: #81b08d !important;
+}
+
+#dailynotify-container .dailynotify-placeholder h5{
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+#dailynotify-container h3{
+    margin-bottom: 20px;
+}

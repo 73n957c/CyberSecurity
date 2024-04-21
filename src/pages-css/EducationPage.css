@@ -1,0 +1,27 @@
+.education-overall,
+.education {
+    overflow: visible;
+}
+
+#educationContainer {
+    margin-top: 50px;
+    padding: 0;
+    padding-left: 4%;
+}
+
+#educationContainerTop {
+    overflow: scroll;
+    white-space: nowrap;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 4%;
+}
+
+.overflow-auto {
+    white-space: nowrap;
+    scrollbar-width: none;
+}

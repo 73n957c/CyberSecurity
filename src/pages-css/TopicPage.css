@@ -1,0 +1,74 @@
+.topic-container {
+  color: white;
+}
+.topic-container h1 {
+  margin-bottom: 30px;
+}
+.topic-container .breadcrumb {
+  margin-left: 32px;
+}
+.breadcrumb .breadcrumb-item a {
+    color: #ffa800;
+    text-decoration: none;
+}
+.breadcrumb-item.active {
+    color: #6c757d !important;
+}
+.breadcrumb-item {
+    font-weight: bold;
+    font-size: 16px;
+}
+.topic-post {
+  border-radius: 12px;
+  background: rgba(225, 225, 225, 0.2);
+  padding: 50px;
+  margin: 0 60px 30px 60px;
+}
+.topic-container .post-op {
+  display: flex;
+}
+.post-op img {
+  width: 100px;
+  height: auto;
+  border-radius: 12px;
+  margin-right: 10px;
+}
+.post-op .name {
+  color: #ffa800;
+}
+.post-op .time {
+  color: rgba(255, 255, 255, 0.6);
+}
+.topic-container h1 {
+  color: white;
+  text-indent: 20px;
+  font-size: 40px;
+}
+.post-content h3 {
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.post-content .post-text {
+  margin-bottom: 40px;
+}
+.post-content .topic-stats {
+  color: #ffa800;
+  margin-bottom: 30px;
+}
+.post-content .form-label {
+  width: 100%;
+}
+.post-content .form-control {
+  border-radius: 52px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.topic-comment-dropdown {
+  margin: 0 0 30px 60px;
+}
+.topic-comment-dropdown .btn {
+  border: none;
+  background: #363d54;
+}
+.topic-comment {
+  margin: 0 60px 100px 60px;
+}

@@ -1,0 +1,33 @@
+#dailyVocabContainer {
+    width: 90%;
+    height: 450px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+  
+#dailyVocabContainer .dailyVocabPlaceholder {
+    width: 100%;
+    height: 450px;
+    display: block;
+    object-fit: cover;
+    position: relative;
+    background-color: #81A5B0 !important;
+}
+    
+#dailyVocabContainer .dailyVocabPlaceholder h6{
+    text-align: right;
+    padding: 50px 50px 0 0;
+}
+
+#dailyVocabContainer .dailyVocabPlaceholder h5{
+    text-align: left;
+    padding-left: 50px;
+}
+
+#dailyVocabContainer p{
+    margin-bottom: 50px;
+}
+  
+  #dailyVocabContainer h2{
+    margin-bottom: 50px;
+  }

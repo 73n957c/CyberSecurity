@@ -1,0 +1,30 @@
+/* General styling for body */
+.body {
+  background-color: #363d54 !important; 
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  font-size: 16px;
+  padding-bottom: 4%;
+}
+
+/* General styling for page-title */
+.page-title {
+  padding-left: 8%;
+  color: white;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+
+.page-title h1 {
+  display: inline-block;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.page-title h5 {
+  display: inline-block;
+  font-weight: 400;
+  opacity: 0.7;
+}

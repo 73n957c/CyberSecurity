@@ -1,0 +1,51 @@
+.logo {
+    margin: 30px 0 0 10px;
+    width: 100px;
+    height: auto;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+}
+
+#navbar .navbar-brand {
+    color: #fff;
+    font-weight: 700;
+}
+
+#navbar .navbar-brand:hover{
+    color: #E89B05;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.navMiddle {
+    margin-top: 15px;
+    padding: 0;
+}
+
+.navButton-container {
+    display: flex;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#navbar .nav-link {
+    color: #fff; 
+}
+
+#navbar .nav-link:hover {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#navbar .active {
+    color: #E89B05;
+}

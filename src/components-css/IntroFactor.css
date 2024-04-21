@@ -1,0 +1,50 @@
+.home-factor-header {
+    margin: 10px 0 10px 0; 
+    border: none; 
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+span {
+    color: #FFA800;
+}
+
+#home-factor {
+    position: relative;
+    margin-bottom: 20px;
+}
+  
+#home-factor .factor-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+  
+#home-factor .factor-text {
+    margin-left: 10px;
+}
+  
+#home-factor .factor-text h6{
+    font-weight: bold;
+    font-size: larger;
+}
+  
+#home-factor .factor-text .desc-text{
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: #c4c4c4;
+    margin-bottom: 10px;
+}
+  
+#home-factor .factor-img{
+    width: 130px;
+    height: 130px;
+    border-radius: 12px;
+    margin-right: 20px;
+}
+  

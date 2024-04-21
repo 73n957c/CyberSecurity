@@ -1,0 +1,69 @@
+.community-archived-container {
+  height:96%;
+  width: 90%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  background: rgba(255, 211, 127, 0.7);
+  padding: 30px;
+  margin-bottom: 40px;
+}
+.community-archived-container h3 {
+  margin-bottom: 30px;
+}
+.archived-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+.archived-item:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.archived-item .archived-item-texts {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+.topic-title-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.topic-title-stats p {
+  font-weight: bold;
+}
+.topic-title-stats .topic-stats {
+  color: #ffa800;
+}
+.community-archived-container .topic-content {
+  width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+}
+.topic-stats .like-btn:hover {
+  cursor: pointer;
+}
+.topic-stats .liked {
+  color: #1ddf51;
+}
+.community-archived-container .btn-view-more {
+  color: white;
+  margin-top: 0;
+}
+.community-archived-container .btn-view-more:hover {
+  cursor: pointer;
+  background: white;
+  color: #323232;
+}
+.community-archived-container .btn-view-more:active {
+  background: rgb(226, 226, 226) !important;
+  color: #323232 !important;
+}

@@ -1,0 +1,63 @@
+.horizontal-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 0;
+}
+
+.horizontal-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.horizontal-nav li:first-child{
+  margin-left: 30px;
+}
+
+.horizontal-nav li:last-child {
+  margin-right: 0;
+}
+
+.horizontal-nav p {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.horizontal-nav p:hover {
+  color: #555;
+}
+
+#community h1 {
+  color: white;
+  text-indent: 20px;
+  font-size: 40px;
+}
+
+#communitySearch .form-label {
+  width: 50%;
+}
+
+#communitySearch .btn {
+  color: white;
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+#communityComponent {
+  margin-left: 10px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#communityComponentTop {
+  display: flex;
+  margin-bottom: 10px;
+}
