@@ -83,3 +83,11 @@ h1 {
 .about-section.education {
     background: linear-gradient(74deg, rgba(255, 255, 255, 0.2) 7.37%, rgba(255, 255, 255, 0.00) 98.75%);
 }
+
+.author{
+    color: white;
+    align-items: center;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
