@@ -145,7 +145,7 @@ export default function AboutPage() {
           </Row>
         </Container>
       </section>
-      <p className="author"><span>Website Fully Developed By </span>Cheah Seong Teng</p>
+      <p className="author"><span>© 2024 </span>Cheah Seong Teng</p>
     </>
   );
 }
