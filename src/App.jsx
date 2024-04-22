@@ -9,11 +9,12 @@ import CommunityPage from "./pages/CommunityPage";
 import TopicPage from "./pages/TopicPage";
 import NewsInfoPage from "./pages/NewsInfoPage";
 import AboutusPage from "./pages/AboutusPage";
+import NavBottom from './components/NavBottom';
 
 function App() {
   return (
     <Router>
-      <NavBar/>
+      <NavBar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/education" element={<EducationPage />} />
@@ -22,6 +23,7 @@ function App() {
         <Route path="/newsinfo" element={<NewsInfoPage />} />
         <Route path="/aboutus" element={<AboutusPage />} />
       </Routes>
+      <NavBottom />
     </Router>
   )
 }

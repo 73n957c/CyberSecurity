@@ -1,0 +1,66 @@
+
+.nav-bottom {
+    padding: 50px 0 10px 0;
+    background: linear-gradient(74deg, rgba(255, 255, 255, 0.2) 7.37%, rgba(255, 255, 255, 0.00) 98.75%);
+    text-align: center;
+}
+
+.nav-bottom-left,
+.nav-bottom-right {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.nav-bottom-right h2 {
+    margin-right: 90px;
+}
+
+.nav-bottom-font {
+    color: white;
+}
+
+.nav-bottom-font h2 {
+    margin-bottom: 30px;
+}
+
+.nav-bottom-font h5 {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.nav-bottom-about {
+    text-decoration: none;
+}
+
+.nav-bottom-features {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bottom-center h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.nav-bottom-img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.author {
+    color: white;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+span {
+    color: #FFA800;
+}
+
+.website-publish {
+    color: white;
+}
